@@ -218,7 +218,7 @@ Resources:
 #                  OutputS3KeyPrefix: post-script-logs
 #              BackupDetails:
 #                BackupVaultName: !Ref BackupVault
-#                IamRoleArn: !Ref BackupJobExecutionRole
+#                IamRoleArn: !GetAtt BackupJobExecutionRole.Arn
 #          # InputPath: $.detail
 #          RetryPolicy:
 #            MaximumRetryAttempts: 2
