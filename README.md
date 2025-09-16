@@ -112,7 +112,7 @@ Based on the input parameters, the workflow will go through multiple steps where
 ## Enable Scheduled Rule (Optional)    
 If you need to run the solution on a schedule, you can 
    
-   (a). Uncomment the resource **PrePostBackupEventsScheduledRule**  in template.yaml (line numbers 185-222)
+   (a). Uncomment the resource PrePostBackupEventsScheduledRule in template.yaml (line numbers 189-226)
    
    (b). Edit the cron expression on line number 190 as per your requirement. [How to set CRON expression](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-create-rule-schedule.html#eb-cron-expressions)
 
